@@ -6,7 +6,7 @@
     {
       "type": "feature_effect",
       "feature": "multiple input features",
-      "direction": "changes score",
+      "direction": "decreases",
       "strength": "moderate",
       "confidence": 0.85,
       "evidence": {
@@ -17,7 +17,7 @@
     {
       "type": "feature_effect",
       "feature": "baseline configuration",
-      "direction": "higher score observed",
+      "direction": "increases",
       "strength": "moderate",
       "confidence": 0.9,
       "evidence": {
