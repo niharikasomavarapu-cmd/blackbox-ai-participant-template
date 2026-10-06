@@ -1,20 +1,23 @@
-# round-1 — Observe
+# Round 1 — Observe
 
-**Team:** BB-XXX
-**Queries used:** 0 / budget
+## Investigation
 
-## What we concluded
+We tested different input configurations on the BLACKBOX AI system and recorded the resulting scores.
 
-<!-- The short version. What is this system doing? -->
+## Observations
 
-## How we got there
+The initial baseline configuration produced a score of 0.3544 with a DECLINE decision.
 
-<!-- The experiments that mattered, in order. Why each one was worth a query. -->
+We then tested configurations with changes to multiple input features. These produced lower scores including 0.1005, 0.1263, and 0.1717.
 
-## What we ruled out
+A later configuration close to the baseline produced a score of 0.3455.
 
-<!-- Hypotheses you rejected and what killed them. This section carries real marks. -->
+## Conclusion
 
-## What we are still unsure about
+The experiments show that the combination of input features affects the system score. The baseline configuration produced the highest score observed during our experiments.
 
-<!-- Being honest here scores better than overclaiming. -->
+However, some experiments changed multiple features at the same time, so we cannot confidently determine the individual effect of every feature yet.
+
+## Next Steps
+
+For future experiments, we would change one feature at a time while keeping the other inputs fixed. This would help identify which features have the strongest effect on the score.
