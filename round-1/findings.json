@@ -4,7 +4,7 @@
   "queries_used": 5,
   "claims": [
     {
-      "type": "observation",
+      "type": "feature_effect",
       "feature": "multiple input features",
       "direction": "changes score",
       "strength": "moderate",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "type": "discovery",
+      "type": "feature_effect",
       "feature": "baseline configuration",
       "direction": "higher score observed",
       "strength": "moderate",
