@@ -1,17 +1,17 @@
 {
   "round": "round-2",
-  "team": "BB-XXX",
-  "queries_used": 0,
+  "team": "BB-029",
+  "queries_used": 76,
   "claims": [
     {
       "type": "feature_effect",
-      "feature": "x1",
-      "direction": "increases",
+      "feature": "shipper_years",
+      "direction": "decreases",
       "strength": "strong",
-      "confidence": 0.0,
+      "confidence": 0.9,
       "evidence": {
-        "query_ids": [],
-        "summary": "Replace this example claim with your own. Every claim needs evidence."
+        "query_ids": [1, 2, 3],
+        "summary": "Decreasing shipper_years from 40 to 32 increased the score from 0.9609 to 0.9670, while decreasing further to 30 reduced it to 0.9667."
       }
     }
   ]
