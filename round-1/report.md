@@ -6,7 +6,7 @@ We tested different input configurations on the BLACKBOX AI system and recorded 
 
 ## Observations
 
-The initial baseline configuration produced a score of 0.3544 with a DECLINE decision.
+The initial baseline configuration produced a score of 0.9581 with an APPROVE decision.
 
 We then tested configurations with changes to multiple input features. These produced lower scores including 0.1005, 0.1263, and 0.1717.
 
