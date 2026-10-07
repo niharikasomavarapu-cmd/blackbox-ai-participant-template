@@ -11,7 +11,7 @@
       "confidence": 0.85,
       "evidence": {
         "query_ids": [1, 2, 3, 4, 5],
-        "summary": "The baseline configuration produced a score of 0.3544. Experiments that changed multiple input values produced lower scores of 0.1005, 0.1263 and 0.1717. A later near-baseline configuration produced 0.3455. This shows that the input combination has a strong effect on the score, but the experiments did not isolate individual feature effects."
+        "summary": "The baseline configuration produced a score of 0.3544. Experiments that changed multiple input values produced lower scores of 0.1005, 0.1263 and 0.1717. A later near-baseline configuration produced 0.9581. This shows that the input combination has a strong effect on the score, but the experiments did not isolate individual feature effects."
       }
     },
     {
@@ -22,7 +22,7 @@
       "confidence": 0.9,
       "evidence": {
         "query_ids": [1, 5],
-        "summary": "The original configuration was observed to produce a score of 0.3544, which was higher than the scores from the multi-variable changes tested."
+        "summary": "The original configuration was observed to produce a score of 0.9581, which was higher than the scores from the multi-variable changes tested."
       }
     }
   ]
