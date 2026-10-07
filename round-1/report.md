@@ -10,7 +10,7 @@ The initial baseline configuration produced a score of 0.3544 with a DECLINE dec
 
 We then tested configurations with changes to multiple input features. These produced lower scores including 0.1005, 0.1263, and 0.1717.
 
-A later configuration close to the baseline produced a score of 0.3455.
+A later configuration close to the baseline produced a score of 0.9581.
 
 ## Conclusion
 
