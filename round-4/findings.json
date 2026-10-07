@@ -4,7 +4,7 @@
   "queries_used": 80,
   "claims": [
     {
-      "type": "reconstruction",
+      "type": "feature_effect",
       "feature": "shipper_years",
       "direction": "decreases",
       "strength": "strong",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "type": "reconstruction_method",
+      "type": "feature_effect",
       "feature": "all_features",
       "direction": "predictive",
       "strength": "strong",
