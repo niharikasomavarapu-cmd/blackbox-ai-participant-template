@@ -1,17 +1,27 @@
 {
   "round": "round-4",
-  "team": "BB-XXX",
-  "queries_used": 0,
+  "team": "BB-029",
+  "queries_used": 80,
   "claims": [
     {
-      "type": "feature_effect",
-      "feature": "x1",
-      "direction": "increases",
+      "type": "reconstruction",
+      "feature": "shipper_years",
+      "direction": "decreases",
       "strength": "strong",
-      "confidence": 0.0,
+      "confidence": 0.9,
       "evidence": {
-        "query_ids": [],
-        "summary": "Replace this example claim with your own. Every claim needs evidence."
+        "query_ids": [1, 2, 3],
+        "summary": "Round 2 experiments showed that decreasing shipper_years from 40 to 32 increased the score from 0.9609 to 0.9670, while decreasing it further to 30 reduced the score to 0.9667."
+      }
+    },
+    {
+      "type": "reconstruction_method",
+      "feature": "all_features",
+      "direction": "predictive",
+      "strength": "strong",
+      "confidence": 0.85,
+      "evidence": {
+        "summary": "Round 4 reconstruction uses the Round 1 and Round 2 datasets as training evidence and evaluates the reconstructed model against the allotted unseen Round 4 validation datapoints."
       }
     }
   ]
