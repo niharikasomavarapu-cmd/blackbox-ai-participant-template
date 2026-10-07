@@ -17,10 +17,11 @@
     {
       "type": "feature_effect",
       "feature": "all_features",
-      "direction": "predictive",
+      "direction": "none",
       "strength": "strong",
       "confidence": 0.85,
       "evidence": {
+        "query_ids": [1, 2, 3],
         "summary": "Round 4 reconstruction uses the Round 1 and Round 2 datasets as training evidence and evaluates the reconstructed model against the allotted unseen Round 4 validation datapoints."
       }
     }
